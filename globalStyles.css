@@ -1,0 +1,20 @@
+/* CONSISTENT LINKS IN IOS GMAIL AND SAMSUNG */
+a[x-apple-data-detectors] {
+  color: #000000 !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+#bodyId[data-outlook-cycle]
+  #iosTargetDate[x-apple-data-detectors-type='calendar-event'] {
+  color: inherit !important;
+  text-decoration: inherit !important;
+}
+
+#bodyId #iosTargetDate a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: inherit !important;
+}
